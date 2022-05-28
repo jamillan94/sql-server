@@ -38,5 +38,6 @@ jobs:
           
     - name: digest de la imagen
       run: echo ${{ steps.docker_build.outputs.digest }}      
+   
    # - name: Build the Docker image
    # run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
